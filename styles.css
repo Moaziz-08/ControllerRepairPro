@@ -520,3 +520,16 @@ footer {
         transform-origin: 5% 50%;
     }
 }
+/* Globale Stile für alle h2-Elemente */
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #ff4141;  /* Einheitliche Farbe für alle Überschriften */
+    margin-bottom: 2rem;
+}
+
+/* Spezifische Anpassungen für die Dienstleistungen Section */
+#dienstleistungen h2 {
+    color: #ff4141;  /* Stellt sicher, dass die Farbe auch hier korrekt ist */
+    margin-bottom: 2rem;
+}
