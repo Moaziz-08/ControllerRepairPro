@@ -543,7 +543,7 @@ h2 {
     padding: 100px 20px;
     background-color: #1d1d1d;
     text-align: center;
-    color: #FF413E; /* Überschrift und Textfarbe */
+    color: #f4f4f4; /* Standard Textfarbe */
 }
 
 .impressum-section h2 {
@@ -564,12 +564,13 @@ h2 {
 
 .impressum-box p {
     margin-bottom: 20px;
-    color: #FF413E; /* Textfarbe innerhalb der Box */
+    color: #f4f4f4; /* Textfarbe innerhalb der Box */
 }
 
 .impressum-box strong {
-    color: #FF413E; /* Fettschriftfarbe innerhalb der Box */
+    color: #ff413e; /* Fettschriftfarbe innerhalb der Box */
 }
+
 
 
 
