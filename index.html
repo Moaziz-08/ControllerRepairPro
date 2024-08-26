@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" type="image/png" href="softdev logo.png">
 </head>
+
 <body>
 
     <!-- Navigation -->
@@ -22,13 +24,14 @@
             <li><a href="#uber-uns">Über uns</a></li>
             <li><a href="#kontakt">Kontakt</a></li>
             <li><a href="#termin">Termin</a></li>
+            <li><a href="#impressum">Impressum</a></li>
         </ul>
         <div class="hamburger">
             <span></span>
             <span></span>
             <span></span>
         </div>
-        
+
     </nav>
 
     <!-- Hero Section -->
@@ -79,7 +82,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Über Uns Section -->
     <section id="uber-uns" class="about-section">
         <div class="about-container" data-aos="fade-up">
@@ -108,15 +111,30 @@
                 <button type="submit">Senden</button>
             </form>
         </div>
-    </section>  
-    
+    </section>
 
     <section id="termin" class="termin" data-aos="fade-up">
-    <div class="termin">
-        <h2 data-aos="fade-up">Legen Sie einen Termin fest!</h2>
-    <iframe src="https://app.simplymeet.me/controllerrepairpro?is_widget=1&view=" style="width:100%; height:1050px;" frameborder="0" scrolling="yes"></iframe>
+        <div class="termin">
+            <h2 data-aos="fade-up">Legen Sie einen Termin fest!</h2>
+            <iframe src="https://app.simplymeet.me/controllerrepairpro?is_widget=1&view=" style="width:100%; height:1050px;" frameborder="0" scrolling="yes"></iframe>
+        </div>
     </section>
-    
+
+    <!-- Impressum Section -->
+    <section id="impressum" class="impressum-section">
+        <h2>Impressum</h2>
+        <div class="impressum-content">
+            <p><strong>Angaben gemäß § 5 TMG:</strong></p>
+            <p><strong>Name des Unternehmens:</strong><br>ControllerRepairPro</p>
+            <p><strong>Vertreten durch:</strong><br>Moaz Abdulaziz</p>
+            <p><strong>Adresse:</strong><br>Moaz Abdulaziz<br>Osterhagener Str. 31<br>37431 Bad Lauterberg</p>
+            <p><strong>Kontakt:</strong><br>
+                Telefon: 015752602089<br>
+                E-Mail: moaz004az@gmail.com
+            </p>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer>
         <p>&copy; 2024 ControllerRepairPro. Alle Rechte vorbehalten. Created by Moaz.Abdulaziz</p>
@@ -127,7 +145,7 @@
         AOS.init();
 
         // Hamburger Menü und Navigation
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             const hamburger = document.querySelector('.hamburger');
             const navLinks = document.querySelector('.nav-links');
 
@@ -138,7 +156,7 @@
 
             // Smooth Scroll für Navigation
             document.querySelectorAll('nav a').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
+                anchor.addEventListener('click', function (e) {
                     e.preventDefault();
                     document.querySelector(this.getAttribute('href')).scrollIntoView({
                         behavior: 'smooth'
@@ -148,7 +166,7 @@
         });
 
         // Sticky Navbar beim Scrollen
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const nav = document.querySelector('nav');
             if (window.scrollY > 100) {
                 nav.classList.add('scrolled');
@@ -159,4 +177,5 @@
     </script>
     <script src="scripts.js"></script>
 </body>
+
 </html>
