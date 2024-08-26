@@ -538,3 +538,6 @@ h2 {
     margin-bottom: 30px;
     color: #ff4141;
 }
+div {
+  scroll-margin-inline: 20px;
+}
