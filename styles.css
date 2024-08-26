@@ -549,7 +549,7 @@ h2 {
 .impressum-section h2 {
     font-size: 3rem;
     margin-bottom: 50px;
-    color: #f4f4f4; /* Aktualisierte Farbe für die Überschrift */
+    color: #FF413E; /* Aktualisierte Farbe für die Überschrift */
 }
 
 .impressum-content {
@@ -565,7 +565,7 @@ h2 {
 }
 
 .impressum-content strong {
-    color: #fB443F;
+    color: #FF413E;
 }
 
 
