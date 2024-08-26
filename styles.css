@@ -538,3 +538,33 @@ h2 {
     margin-bottom: 30px;
     color: #ff4141;
 }
+
+.impressum-section {
+    padding: 100px 20px;
+    background-color: #1d1d1d;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.impressum-section h2 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    color: #ff4141;
+}
+
+.impressum-content {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #d3d3d3;
+}
+
+.impressum-content p {
+    margin-bottom: 20px;
+}
+
+.impressum-content strong {
+    color: #f4f4f4;
+}
+
