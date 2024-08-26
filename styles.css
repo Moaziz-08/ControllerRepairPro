@@ -542,30 +542,34 @@ h2 {
 .impressum-section {
     padding: 100px 20px;
     background-color: #1d1d1d;
-    color: #f4f4f4;
     text-align: center;
+    color: #FF413E; /* Überschrift und Textfarbe */
 }
 
 .impressum-section h2 {
     font-size: 3rem;
     margin-bottom: 50px;
-    color: #FF413E; /* Aktualisierte Farbe für die Überschrift */
+    color: #FF413E; /* Überschrift Farbe */
 }
 
-.impressum-content {
+.impressum-box {
+    background-color: #333; /* Box Hintergrundfarbe */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     max-width: 800px;
     margin: 0 auto;
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: #d3d3d3;
+    text-align: left;
 }
 
-.impressum-content p {
+.impressum-box p {
     margin-bottom: 20px;
+    color: #FF413E; /* Textfarbe innerhalb der Box */
 }
 
-.impressum-content strong {
-    color: #FF413E;
+.impressum-box strong {
+    color: #FF413E; /* Fettschriftfarbe innerhalb der Box */
 }
+
 
 
