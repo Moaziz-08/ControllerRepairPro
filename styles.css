@@ -571,30 +571,6 @@ h2 {
     color: #ff413e; /* Fettschriftfarbe innerhalb der Box */
 }
 
-/* Globale Schriftart-Einstellungen für die Website */
-body {
-    font-family: 'Press Start 2P', cursive; /* Neue Gaming-Schriftart */
-    background-color: #1d1d1d;
-    color: #f4f4f4;
-    overflow-x: hidden;
-}
-
-/* Weitere Bereiche, die die neue Schrift verwenden */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Press Start 2P', cursive; /* Gaming-Schriftart für Überschriften */
-    color: #FF413E; /* Überschriften-Farbe */
-}
-
-nav h1 {
-    font-family: 'Press Start 2P', cursive;
-}
-
-.cta-button,
-.contact-button,
-.contact-box,
-.service-card h3 {
-    font-family: 'Press Start 2P', cursive;
-}
 
 
 
