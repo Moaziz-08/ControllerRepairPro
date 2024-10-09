@@ -336,7 +336,7 @@ footer {
 }
 .contact {
     padding: 100px 20px;
-    background-color: #282828;
+    background-color: #1d1d1d;
     text-align: center;
 }
 
@@ -570,7 +570,6 @@ h2 {
 .impressum-box strong {
     color: #ff413e; /* Fettschriftfarbe innerhalb der Box */
 }
-
 
 
 
